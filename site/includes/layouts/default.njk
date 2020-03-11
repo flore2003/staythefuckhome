@@ -44,7 +44,7 @@
     <div id="wrapper" class="wrapper flex flex-col relative min-h-screen">
 
         {# include header #}
-        {#% include "components/header.njk" %#}
+        {% include "components/header.njk" %}
 
         {# include content #}
         {{ content | safe }}

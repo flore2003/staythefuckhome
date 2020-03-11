@@ -1,12 +1,12 @@
 {
     "main": [
         {
-            "label": "Home",
+            "label": "English",
             "url": "/"
         },
         {
-            "label": "About",
-            "url": "/about"
+            "label": "Español",
+            "url": "/es/"
         }
     ]
 }
