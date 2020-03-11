@@ -7,6 +7,10 @@
         {
             "label": "Español",
             "url": "/es/"
+        },
+        {
+            "label": "Deutsch",
+            "url": "/de/"
         }
     ]
 }
