@@ -1,0 +1,48 @@
+
+//==========  Form ==========//
+
+.form {
+
+    .row {
+        @apply mb-6;
+
+        label {
+            @apply block mb-1 text-gray-800;
+
+            &:after {
+                @apply text-sm text-gray-600;
+            }
+        }
+
+        &.required {
+
+            label:after {
+                content: '\00a0(required)';
+            }
+        }
+
+        &:not(.required) {
+
+            label:after {
+                content: '\00a0(optional)';
+            }
+        }
+    }
+
+    .input,
+    .textarea {
+        @apply border border-gray-200 rounded p-3 w-full transition-all duration-300 ease-out;
+
+        &:focus {
+            @apply border-pink-500 outline-none;
+        }
+    }
+
+    .input {
+        @apply h-12;
+    }
+
+    .textarea {
+        @apply h-24;
+    }
+}

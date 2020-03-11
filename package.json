@@ -1,0 +1,26 @@
+{
+  "name": "staythefuckhome",
+  "version": "1.0.0",
+  "description": "The #StayTheFuckHome Website",
+  "scripts": {
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && npx @11ty/eleventy --config=eleventy.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flore2003/staythefuckhome.git"
+  },
+  "author": "Florian Reifschneider",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "html-minifier": "^4.0.0",
+    "laravel-mix": "^5.0.1",
+    "laravel-mix-purgecss": "^4.2.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
+    "tailwindcss": "^1.2.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="min-h-full antialiased">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}</title>
+    <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
+    {% if page.fileSlug === 'blog' %}
+        <meta name="robots" content="noindex,follow" />
+    {% else %}
+        <meta name="robots" content="index,follow" />
+    {% endif %}
+
+    {# if your site's entire CSS comes in under 14kb, you may want to inline in the head #}
+    {# include main.css if in development mode #}
+    {% if helpers.environment === "development" %}
+        <link rel="stylesheet" href="/css/main.css">
+    {% else %}
+        {# else, use the minified css file for production #}
+        <link rel="stylesheet" href="/css/main.min.css">
+    {% endif %}
+
+    {# include scripts #}
+    {% if helpers.environment === "development" %}
+        <script src="/js/main.js" defer></script>
+    {% else %}
+        <script src="/js/main.min.js" defer></script>
+    {% endif %}
+
+    {# include social meta tags #}
+    {% include "components/social-meta.njk" %}
+
+    {# lastly include favicon, fonts, etc #}
+    <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
+
+    {# canonical #}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+</head>
+
+<body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-purple-900 leading-normal text-lg">
+
+    <a class="sr-only" href="#main">Skip to content</a>
+
+    <div id="wrapper" class="wrapper flex flex-col relative min-h-screen">
+
+        {# include header #}
+        {#% include "components/header.njk" %#}
+
+        {# include content #}
+        {{ content | safe }}
+
+        {# include footer #}
+        {% include "components/footer.njk" %}
+
+    </div>
+
+    {% if helpers.environment !== "development" %}
+    <!-- Fathom -->
+    <script>!function(t,e,a,c,s,n){e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},s=t.createElement("script"),n=t.getElementsByTagName("script")[0],s.async=1,s.src="https://cdn.usefathom.com/tracker.js",s.id="fathom-script",n.parentNode.insertBefore(s,n)}(document,window,0,"fathom"),fathom("set","siteId","BGNULKEE"),fathom("trackPageview");</script>
+    <!-- / Fathom -->
+    {% endif %}
+</body>
+</html>

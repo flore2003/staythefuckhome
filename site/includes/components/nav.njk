@@ -1,0 +1,22 @@
+<nav id="nav" class="nav">
+
+    <ul class="menu flex flex-row items-center list-reset text-base">
+
+        {% for item in navigation.main %}
+
+        <li class="level-1 mr-4">
+
+            <a href="{{ item.url | safe }}" class="link text-gray-700 font-bold hover:text-blue-500 active:text-blue-500"
+                {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+
+        </li>
+
+        {% endfor %}
+
+        <li>
+            <a class="inline-block rounded md:ml-2 py-3 px-6 text-white font-bold bg-blue-500 hover:bg-blue-700" href="/guide" target="_blank" rel="noopener">Guide</a>
+        </li>
+
+    </ul>
+
+</nav>

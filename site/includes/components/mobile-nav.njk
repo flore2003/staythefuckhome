@@ -1,0 +1,30 @@
+<nav id="mobile-nav" class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-purple-900 z-50 md:hidden">
+
+    <ul>
+
+        {% for item in navigation.main %}
+
+        <li class="item relative opacity-0">
+
+            <a href="{{ item.url | safe }}" class="link block py-2 px-5 text-white text-3xl hover:text-pink-500 {% if page.url == item.url %}active text-pink-500{% endif %}
+            "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+
+        </li>
+
+        {% endfor %}
+
+    </ul>
+
+</nav>
+
+<button id="mobile-nav-toggle" class="mobile-nav-toggle block fixed h-16 w-full bottom-0 flex items-center justify-center font-bold border-none bg-purple-900 text-white z-50 focus:outline-none md:hidden" aria-label="Mobile menu toggle" aria-expanded="false" aria-controls="mobile-nav">
+
+   <span class="mobile-nav-label mr-2 font-medium">Menu</span>
+
+   <span class="mobile-nav-icon" aria-hidden="true">
+      <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
+      <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out mb-1"></span>
+      <span class="mobile-nav-icon-line bg-white w-6 block transition-all duration-200 ease-out"></span>
+   </span>
+
+</button>

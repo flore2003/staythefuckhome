@@ -1,0 +1,23 @@
+<ul class="flex justify-center">
+
+    {% for icon, link in site.social_links %}
+
+    <li class="mr-4">
+
+        <a href="{{ link | safe }}" class="block text-gray-500 hover:text-pink-500">
+
+            <svg class="block" fill="currentColor" role="img" width="18" height="18" aria-labelledby="{{ icon }}-svg-title {{ icon }}-svg-description">
+
+                <title id="{{ icon }}-svg-title">{{ icon | capitalize }}</title>
+                <desc id="{{ icon }}-svg-description">The {{ icon | capitalize }} logo icon</desc>
+
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/icons/icon-library.svg#icon-{{ icon }}"></use>
+            </svg>
+
+        </a>
+
+    </li>
+
+    {% endfor %}
+
+</ul>
