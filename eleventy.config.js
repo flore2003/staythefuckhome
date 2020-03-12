@@ -8,6 +8,9 @@ module.exports = eleventyConfig => {
     // Add a HTML timestamp formatter filter to Nunjucks
     eleventyConfig.addFilter("htmlDateDisplay", require("./filters/timestamp.js"))
 
+    // Add a filter to check if a page is localized
+    eleventyConfig.addFilter("isLocalized", require("./filters/is-localized.js"))
+
     // Minify our HTML
     eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
         if ( outputPath.endsWith(".html") )

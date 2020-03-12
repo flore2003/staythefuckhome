@@ -1,12 +1,5 @@
 {
     "main": [
-        {
-            "label": "English",
-            "url": "/"
-        },
-        {
-            "label": "Español",
-            "url": "/es/"
-        }
+
     ]
 }

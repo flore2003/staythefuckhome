@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="min-h-full antialiased">
+<html lang="{{ lang }}" class="min-h-full antialiased">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +35,13 @@
 
     {# canonical #}
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    {% if page.url | isLocalized(langs) %}
+        {% for lang in langs %}
+        <link rel="alternate" hreflang="{{ lang.code }}" href="{{ site.url }}{{ lang.url }}" />
+        {% endfor %}
+    {% endif %}
+
 </head>
 
 <body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-purple-900 leading-normal text-lg">

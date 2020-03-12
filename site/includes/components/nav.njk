@@ -1,13 +1,13 @@
 <nav id="nav" class="nav">
 
-    <ul class="menu flex flex-row items-center list-reset text-base">
+    <ul class="menu languages flex flex-row items-center list-reset text-base">
 
-        {% for item in navigation.main %}
+        {% for lang in langs %}
 
         <li class="level-1 mr-4">
 
-            <a href="{{ item.url | safe }}" class="link text-gray-700 font-bold hover:text-pink-500 active:text-pink-500 {% if page.url == item.url %}active text-pink-500{% endif %}"
-                {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+            <a href="{{ lang.url | safe }}" class="link text-gray-700 font-bold hover:text-pink-500 active:text-pink-500 {% if page.url == lang.url %}active text-pink-500{% endif %}"
+                {% if page.url == lang.url %} aria-current="page"{% endif %}>{{ lang.name }}</a>
 
         </li>
 
