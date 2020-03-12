@@ -2,6 +2,14 @@
 
     <ul class="menu languages flex flex-row flex-wrap items-center list-reset text-base">
 
+         <li class="level-1 mr-4">
+
+            <a href="/sfw/" class="link text-gray-700 font-bold hover:text-pink-500 active:text-pink-500 {% if page.url == '/sfw/' %}active text-pink-500{% endif %}"
+                {% if page.url == '/sfw/' %} aria-current="page"{% endif %}>SFW</a>
+
+        </li>
+
+
         {% for lang in langs %}
 
         <li class="level-1 mr-4">

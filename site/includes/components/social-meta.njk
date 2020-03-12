@@ -1,18 +1,18 @@
 {# Google Schema #}
-<meta itemprop="name" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}">
+<meta itemprop="name" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {% if sfw %}{{ site.nameSfw }}{% else %}{{ site.name }}{% endif %}">
 <meta itemprop="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
 
 {# Twitter #}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}">
+<meta name="twitter:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {% if sfw %}{{ site.nameSfw }}{% else %}{{ site.name }}{% endif %}">
 <meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
-<meta name="twitter:image:src" content="{{ site.url }}{{ site.images.twitter }}">
+<meta name="twitter:image:src" content="{{ site.url }}{% if sfw %}{{ site.images.twitterSfw }}{% else %}{{ site.images.twitter }}{% endif %}">
 
 {# Open Graph #}
-<meta name="og:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}">
+<meta name="og:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {% if sfw %}{{ site.nameSfw }}{% else %}{{ site.name }}{% endif %}">
 <meta name="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
-<meta name="og:image" content="{{ site.url }}{{ site.images.og }}">
+<meta name="og:image" content="{{ site.url }}{% if sfw %}{{ site.images.ogSfw }}{% else %}{{ site.images.og }}{% endif %}">
 <meta name="og:url" content="{{ site.url }}{{ page.url }}">
-<meta name="og:site_name" content="{{ site.name }}">
+<meta name="og:site_name" content="{% if sfw %}{{ site.nameSfw }}{% else %}{{ site.name }}{% endif %}">
 <meta name="og:locale" content="en_US">
 <meta name="og:type" content="website">

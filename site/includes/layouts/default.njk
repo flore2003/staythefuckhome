@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}</title>
+    <title>{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {% if sfw %}{{ site.nameSfw }}{% else %}{{ site.name }}{% endif %}</title>
     <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
     {% if page.fileSlug === 'blog' %}
         <meta name="robots" content="noindex,follow" />
