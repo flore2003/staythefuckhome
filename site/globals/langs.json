@@ -10,6 +10,12 @@
         "name": "Español"
     },
     {
+
+        "code": "fr",
+        "url": "/fr/",
+        "name": "Français"
+    },
+    {
         "code": "de",
         "url": "/de/",
         "name": "Deutsch"
@@ -25,8 +31,14 @@
         "name": "Italiano"
     },
     {
+
         "code": "pl",
         "url": "/pl/",
         "name": "Polski"
+    },
+    {
+        "code": "ru",
+        "url": "/ru/",
+        "name": "Русский"
     }
 ]
