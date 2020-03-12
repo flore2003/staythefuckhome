@@ -8,5 +8,10 @@
         "code": "es",
         "url": "/es/",
         "name": "Español"
+    },
+    {
+        "code": "fr",
+        "url": "/fr/",
+        "name": "Français"
     }
 ]
