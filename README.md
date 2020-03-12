@@ -29,13 +29,21 @@ Please keep in mind there is no right or wrong amount of actions to take. Only t
 
 We are looking for people to help us translate the Website into the following languages:
 
-* Italian
 * French
 * Dutch
 * Swedish
 * Danish
 * ...
 
+### How to contribute
+
+1. Fork/clone the repo.
+2. Create a copy of `site/index.njk`, translate it into the corresponding language and save it under `site/languageCode.njk`, e.g. `site/de.njk`.
+3. Add language into `site/globals/langs.json` like the other languages.
+4. To test in browser run `npm install` then `npm run dev`.
+5. Create  pull request.
+6. You can find example [here](https://github.com/flore2003/staythefuckhome/pull/4/files).
+
 ## Credits
 
-THe #StayTheFuckHome website is based on [Skeleventy](https://github.com/josephdyer/skeleventy).
+The #StayTheFuckHome website is based on [Skeleventy](https://github.com/josephdyer/skeleventy).
