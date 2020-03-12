@@ -18,5 +18,10 @@
         "code": "pt",
         "url": "/pt/",
         "name": "Português"
+    },
+    {
+        "code": "it",
+        "url": "/it/",
+        "name": "Italiano"
     }
 ]
