@@ -1,16 +1,13 @@
 {
     "name": "#StayTheFuckHome",
+    "nameSfw": "#StayTheF—Home",
     "url": "https://staythefuckhome.com",
     "images": {
         "logo": "/images/logo/logo.svg",
         "favicon": "/images/favicon.ico",
         "twitter": "/images/meta/twitter.jpg",
-        "og": "/images/meta/og.jpg"
-    },
-    "social_links": {
-        "facebook": "https://www.facebook.com",
-        "twitter": "https://twitter.com",
-        "linkedin": "https://www.linkedin.com",
-        "instagram": "https://www.instagram.com"
+        "twitterSfw": "/images/meta/twitter-sfw.jpg",
+        "og": "/images/meta/og.jpg",
+        "ogSfw": "/images/meta/og-sfw.jpg"
     }
 }
