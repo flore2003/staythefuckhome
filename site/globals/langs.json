@@ -1,0 +1,17 @@
+[
+    {
+        "code": "en",
+        "url": "/",
+        "name": "English"
+    },
+    {
+        "code": "es",
+        "url": "/es/",
+        "name": "Español"
+    },
+    {
+        "code": "de",
+        "url": "/de/",
+        "name": "Deutsch"
+    }
+]
