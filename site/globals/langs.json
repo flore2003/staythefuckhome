@@ -23,5 +23,10 @@
         "code": "it",
         "url": "/it/",
         "name": "Italiano"
+    },
+    {
+        "code": "per",
+        "url": "/per/",
+        "name": "فارسی"
     }
 ]
