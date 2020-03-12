@@ -29,5 +29,10 @@
         "code": "it",
         "url": "/it/",
         "name": "Italiano"
+    },
+    {
+        "code": "ru",
+        "url": "/ru/",
+        "name": "Русский"
     }
 ]
