@@ -46,7 +46,6 @@ module.exports = eleventyConfig => {
 
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
-    eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
 
     // Include our static assets
     eleventyConfig.addPassthroughCopy("css")
