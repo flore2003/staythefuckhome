@@ -13,5 +13,10 @@
         "code": "de",
         "url": "/de/",
         "name": "Deutsch"
+    },
+    {
+        "code": "pt",
+        "url": "/pt/",
+        "name": "Português"
     }
 ]
