@@ -35,6 +35,11 @@
         "name": "Polski"
     },
     {
+        "code": "el",
+        "url": "/el/",
+        "name": "ελληνικά"
+    },
+    {
         "code": "ru",
         "url": "/ru/",
         "name": "Русский"
