@@ -65,6 +65,11 @@
         "name": "עברית"
     },
     {
+        "code": "ro",
+        "url": "/ro/",
+        "name": "Română"
+    },
+    {
         "code": "fa",
         "url": "/fa/",
         "name": "فارسی"
