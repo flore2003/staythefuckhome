@@ -10,7 +10,6 @@
         "name": "Español"
     },
     {
-
         "code": "fr",
         "url": "/fr/",
         "name": "Français"
@@ -31,14 +30,33 @@
         "name": "Italiano"
     },
     {
-
+        "code": "nl",
+        "url": "/nl/",
+        "name": "Nederlands"
+    },
+    {
         "code": "pl",
         "url": "/pl/",
         "name": "Polski"
     },
     {
+        "code": "el",
+        "url": "/el/",
+        "name": "ελληνικά"
+    },
+    {
         "code": "ru",
         "url": "/ru/",
         "name": "Русский"
+    },
+    {
+        "code": "fa",
+        "url": "/fa/",
+        "name": "فارسی"
+    },
+    {
+        "code": "zh",
+        "url": "/zh/",
+        "name": "简体中文"
     }
 ]
