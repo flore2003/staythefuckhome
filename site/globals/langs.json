@@ -35,6 +35,11 @@
         "name": "Nederlands"
     },
     {
+        "code": "he",
+        "url": "/he/",
+        "name": "עברית"
+    },
+    {
         "code": "pl",
         "url": "/pl/",
         "name": "Polski"
