@@ -1,28 +1,45 @@
 <nav id="nav" class="nav">
 
-    <ul class="menu languages flex flex-row flex-wrap items-center list-reset text-base">
+    <ul class="menu languages flex-row flex-wrap items-center list-reset text-base hidden md:flex">
+        <li class="level-1 mr-4">
 
-        <div class="relative">
+            <a href="/sfw/" class="link text-gray-700 font-bold hover:text-pink-500 active:text-pink-500 {% if page.url == '/sfw/' %}active text-pink-500{% endif %}"
+                {% if page.url == '/sfw/' %} aria-current="page"{% endif %}>SFW</a>
 
-            <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" onchange="window.open(this.value,'_self');">
-                <option value="/sfw" {% if page.url == '/sfw' %}selected{% endif %}>SFW (English)</option>
+        </li>
 
-                {% for lang in langs %}
 
-                <option value="{{ lang.url }}" {% if page.url == lang.url %}selected{% endif %}>{{ lang.name }}</option>
+        {% for lang in langs %}
 
-                {% endfor %}
+        <li class="level-1 mr-4">
 
-            </select>
+            <a href="{{ lang.url | safe }}" class="link text-gray-700 font-bold hover:text-pink-500 active:text-pink-500 {% if page.url == lang.url %}active text-pink-500{% endif %}"
+                {% if page.url == lang.url %} aria-current="page"{% endif %}>{{ lang.name }}</a>
 
-            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z">
-                    </path>
-                </svg>
-            </div>
-        <div>
+        </li>
 
+        {% endfor %}
     </ul>
+
+    <div class="relative md:hidden">
+
+        <select class="block appearance-none w-full bg-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-gray-100 focus:border-gray-100" onchange="window.open(this.value,'_self');">
+            <option value="/sfw" {% if page.url == '/sfw/' %}selected{% endif %}>SFW (English)</option>
+
+            {% for lang in langs %}
+
+            <option value="{{ lang.url }}" {% if page.url == lang.url %}selected{% endif %}>{{ lang.name }}</option>
+
+            {% endfor %}
+
+        </select>
+
+        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z">
+                </path>
+            </svg>
+        </div>
+    <div>
 
 </nav>
