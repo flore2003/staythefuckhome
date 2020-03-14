@@ -30,6 +30,11 @@
         "name": "Italiano"
     },
     {
+        "code": "nl",
+        "url": "/nl/",
+        "name": "Nederlands"
+    },
+    {
         "code": "pl",
         "url": "/pl/",
         "name": "Polski"
