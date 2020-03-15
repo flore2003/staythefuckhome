@@ -35,11 +35,6 @@
         "name": "Nederlands"
     },
     {
-        "code": "he",
-        "url": "/he/",
-        "name": "עברית"
-    },
-    {
         "code": "pl",
         "url": "/pl/",
         "name": "Polski"
@@ -53,6 +48,11 @@
         "code": "ru",
         "url": "/ru/",
         "name": "Русский"
+    },
+    {
+        "code": "he",
+        "url": "/he/",
+        "name": "עברית"
     },
     {
         "code": "fa",
