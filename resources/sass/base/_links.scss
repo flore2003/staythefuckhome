@@ -6,17 +6,17 @@ a {
 
     &:not([class]) {
         border-bottom-width: 2px;
-        border-color: #eb5286;
+        border-color: #b83280;
 
         &:hover {
-            @apply text-pink-500;
+            @apply text-pink-700;
         }
     }
 }
 
 
 .source-link {
-    @apply text-pink-500;
+    @apply text-pink-700;
 
     &:hover {
         @apply text-purple-900;

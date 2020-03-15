@@ -15,7 +15,7 @@ $transition-length: 0.5s;
     &.menu-toggle-active {
 
         .mobile-nav-icon-line {
-            @apply m-0 bg-pink-500;
+            @apply m-0 bg-pink-700;
 
             &:nth-child(1) {
                 transform: rotate(45deg) translateY(3px);
