@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 .page-subtitle {
-	@apply text-2xl mb-10 font-light text-gray-600;
+	@apply text-2xl mb-10 font-light text-gray-800;
 
 	@screen md {
 		@apply text-4xl;
