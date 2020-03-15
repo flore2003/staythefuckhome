@@ -1,27 +1,14 @@
-<nav id="nav" class="nav">
+<nav id="nav" class="nav flex items-center text-gray-500">
+    <svg class="block mr-3" fill="currentColor" role="img" width="32" height="32" aria-labelledby="lang-switcher-svg-title lang-switcher-svg-description">
 
-    <ul class="menu languages flex-row flex-wrap items-center list-reset text-base hidden md:flex">
-        <li class="level-1 mr-4">
+        <title id="lang-switcher-svg-title">Language switcher icon</title>
+        <desc id="lang-switcher-svg-description">Icon for the language switcher</desc>
 
-            <a href="/sfw/" class="link text-gray-700 font-bold hover:text-pink-500 active:text-pink-500 {% if page.url == '/sfw/' %}active text-pink-500{% endif %}"
-                {% if page.url == '/sfw/' %} aria-current="page"{% endif %}>SFW</a>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/icons/icon-library.svg#icon-globe"></use>
+    </svg>
 
-        </li>
+    <div class="relative">
 
-
-        {% for lang in langs %}
-
-        <li class="level-1 mr-4">
-
-            <a href="{{ lang.url | safe }}" class="link text-gray-700 font-bold hover:text-pink-500 active:text-pink-500 {% if page.url == lang.url %}active text-pink-500{% endif %}"
-                {% if page.url == lang.url %} aria-current="page"{% endif %}>{{ lang.name }}</a>
-
-        </li>
-
-        {% endfor %}
-    </ul>
-
-    <div class="relative md:hidden">
 
         <select class="block appearance-none w-full bg-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-gray-100 focus:border-gray-100" onchange="window.open(this.value,'_self');">
             <option value="/sfw" {% if page.url == '/sfw/' %}selected{% endif %}>SFW (English)</option>
