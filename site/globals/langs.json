@@ -75,6 +75,11 @@
         "name": "简体中文"
     },
     {
+        "code": "zh-tw",
+        "url": "/zh-tw/",
+        "name": "繁體中文"
+    },
+    {
         "code": "ja",
         "url": "/ja/",
         "name": "日本語"
