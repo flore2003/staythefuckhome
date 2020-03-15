@@ -35,9 +35,19 @@
         "name": "Nederlands"
     },
     {
+        "code": "no",
+        "url": "/no/",
+        "name": "Norsk"
+    },
+    {
         "code": "pl",
         "url": "/pl/",
         "name": "Polski"
+    },
+    {
+        "code": "tr",
+        "url": "/tr/",
+        "name": "Türkçe"
     },
     {
         "code": "el",
@@ -50,6 +60,11 @@
         "name": "Русский"
     },
     {
+        "code": "he",
+        "url": "/he/",
+        "name": "עברית"
+    },
+    {
         "code": "fa",
         "url": "/fa/",
         "name": "فارسی"
@@ -60,8 +75,18 @@
         "name": "简体中文"
     },
     {
-    "code":"np", 
-    "url":"/np/", 
-    "name":"Nepali"
+        "code": "zh-tw",
+        "url": "/zh-tw/",
+        "name": "繁體中文"
+    },
+    {
+        "code": "ja",
+        "url": "/ja/",
+        "name": "日本語"
+    },
+    {
+      "code":"np", 
+      "url":"/np/", 
+      "name":"नेपाली"
     }
 ]
