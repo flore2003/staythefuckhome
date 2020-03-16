@@ -12,7 +12,7 @@
 <meta name="og:title" content="{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {% if sfw %}{{ site.nameSfw }}{% else %}{{ site.name }}{% endif %}">
 <meta name="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
 <meta name="og:image" content="{{ site.url }}{% if sfw %}{{ site.images.ogSfw }}{% else %}{{ site.images.og }}{% endif %}">
-<meta name="og:url" content="{{ site.url }}{{ page.url }}">
+<meta name="og:url" content="{% if sfw %}{{ site.urlSfw }}{{ page.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
 <meta name="og:site_name" content="{% if sfw %}{{ site.nameSfw }}{% else %}{{ site.name }}{% endif %}">
 <meta name="og:locale" content="en_US">
 <meta name="og:type" content="website">
