@@ -35,9 +35,19 @@
         "name": "Nederlands"
     },
     {
+        "code": "no",
+        "url": "/no/",
+        "name": "Norsk"
+    },
+    {
         "code": "pl",
         "url": "/pl/",
         "name": "Polski"
+    },
+    {
+        "code": "tr",
+        "url": "/tr/",
+        "name": "Türkçe"
     },
     {
         "code": "el",
@@ -69,6 +79,11 @@
         "url": "/ar/",
         "name": "العربية"
     },
+        "code": "zh-tw",
+        "url": "/zh-tw/",
+        "name": "繁體中文"
+    },
+    {
         "code": "ja",
         "url": "/ja/",
         "name": "日本語"
