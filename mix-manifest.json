@@ -1,6 +1,4 @@
 {
     "/js/main.js": "/js/main.js",
-    "/css/main.css": "/css/main.css",
-    "/css/main.min.css": "/css/main.min.css",
-    "/js/main.min.js": "/js/main.min.js"
+    "/css/main.css": "/css/main.css"
 }
