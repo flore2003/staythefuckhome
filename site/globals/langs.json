@@ -45,6 +45,11 @@
         "name": "Polski"
     },
     {
+        "code": "hu",
+        "url": "/hu/",
+        "name": "Magyar"
+    },
+    {
         "code": "tr",
         "url": "/tr/",
         "name": "Türkçe"
@@ -68,6 +73,16 @@
         "code": "fa",
         "url": "/fa/",
         "name": "فارسی"
+    },
+    {
+        "code": "ar",
+        "url": "/ar/",
+        "name": "عربي"
+    },
+    {
+        "code": "id",
+        "url": "/id/",
+        "name": "Bahasa Indonesia"
     },
     {
         "code": "zh",
