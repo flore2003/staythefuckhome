@@ -45,6 +45,11 @@
         "name": "Polski"
     },
     {
+        "code": "cs",
+        "url": "/cs/",
+        "name": "Čeština"
+    },
+    {
         "code": "hu",
         "url": "/hu/",
         "name": "Magyar"
