@@ -80,14 +80,14 @@
         "name": "Hrvatski"
     },
     {
-        "code": "ba",
-        "url": "/ba/",
+        "code": "bs",
+        "url": "/bs/",
         "name": "Bosanski"
     },
     {
-        "code": "rs",
-        "url": "/rs/",
-        "name": "Srpski"
+        "code": "sr-Latn",
+        "url": "/sr-Latn/",
+        "name": "Srpski (Latinica)"
     },
     {
         "code": "zh-tw",
