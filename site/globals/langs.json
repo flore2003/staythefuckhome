@@ -70,14 +70,14 @@
         "name": "فارسی"
     },
     {
-        "code": "zh",
-        "url": "/zh/",
-        "name": "简体中文"
-    },
-    {
         "code": "ar",
         "url": "/ar/",
         "name": "عربي"
+    },
+    {
+        "code": "zh",
+        "url": "/zh/",
+        "name": "简体中文"
     },
     {
         "code": "zh-tw",
