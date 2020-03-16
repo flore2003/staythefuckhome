@@ -83,5 +83,10 @@
         "code": "ja",
         "url": "/ja/",
         "name": "日本語"
+    },
+    {
+        "code": "fi",
+        "url": "/fi/",
+        "name": "Suomeksi"
     }
 ]
