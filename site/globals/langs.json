@@ -55,6 +55,11 @@
         "name": "فارسی"
     },
     {
+        "code": "id",
+        "url": "/id/",
+        "name": "Bahasa Indonesia"
+    },
+    {
         "code": "zh",
         "url": "/zh/",
         "name": "简体中文"
