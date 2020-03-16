@@ -58,5 +58,20 @@
         "code": "zh",
         "url": "/zh/",
         "name": "简体中文"
+    },
+    {
+        "code": "hr",
+        "url": "/hr/",
+        "name": "Hrvatski"
+    },
+    {
+        "code": "ba",
+        "url": "/ba/",
+        "name": "Bosanski"
+    },
+    {
+        "code": "rs",
+        "url": "/rs/",
+        "name": "Srpski"
     }
 ]
