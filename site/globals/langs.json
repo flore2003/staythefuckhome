@@ -79,6 +79,7 @@
         "url": "/ar/",
         "name": "عربي"
     },
+    {
         "code": "zh-tw",
         "url": "/zh-tw/",
         "name": "繁體中文"
