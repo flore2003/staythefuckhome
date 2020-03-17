@@ -20,6 +20,11 @@
         "name": "Deutsch"
     },
     {
+        "code": "geo",
+        "url": "/geo/",
+        "name": "ქართული"
+    },
+    {
         "code": "pt",
         "url": "/pt/",
         "name": "Português"
