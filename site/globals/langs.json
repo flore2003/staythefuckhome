@@ -1,5 +1,10 @@
 [
     {
+        "code": "bs",
+        "url": "/bs/",
+        "name": "Bosnian"
+    },
+    {
         "code": "en",
         "url": "/",
         "name": "English"
