@@ -25,6 +25,10 @@ With no well-studied treatment and a viable vaccine still being out at least ano
 
 Please keep in mind there is no right or wrong amount of actions to take. Only take the actions that you feel comfortable with and that do not endanger your livelihood. **Do not quit your job over this!** However, keep in mind that every action helps.
 
+## Please Follow official WHO (World Health Organization) instructions
+* You can find On [WHO Official Website👈](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)
+
+
 ## Contributing
 
 We are looking for people to help us translate the Website into the following languages:
