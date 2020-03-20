@@ -1,5 +1,4 @@
-[
-    {
+[{
         "code": "en",
         "url": "/",
         "name": "English"
@@ -98,5 +97,10 @@
         "code": "ja",
         "url": "/ja/",
         "name": "日本語"
+    },
+    {
+        "code": "hi",
+        "url": "/hi/",
+        "name": "हिंदी"
     }
 ]
