@@ -485,5 +485,7 @@ module.exports = {
     zIndex: ['responsive'],
   },
   corePlugins: {},
-  plugins: [],
+  plugins: [
+    require('tailwindcss-multi-column')(), // no options to configure
+  ]
 }
