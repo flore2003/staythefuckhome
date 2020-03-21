@@ -98,5 +98,10 @@
         "code": "ja",
         "url": "/ja/",
         "name": "日本語"
+    },
+    {
+        "code": "vi",
+        "url": "/vi/",
+        "name": "Tiếng Việt"
     }
 ]
