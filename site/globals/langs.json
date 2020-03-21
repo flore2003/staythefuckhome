@@ -105,6 +105,11 @@
         "name": "日本語"
     },
     {
+        "code": "bn",
+        "url": "/bn/",
+        "name": "বাংলা"
+    },
+    {
         "code": "vi",
         "url": "/vi/",
         "name": "Tiếng Việt"
