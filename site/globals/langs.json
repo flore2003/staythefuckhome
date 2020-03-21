@@ -80,6 +80,11 @@
         "name": "فارسی"
     },
     {
+        "code": "tl",
+        "url": "/tl/",
+        "name": "Filipino"
+    },
+    {
         "code": "ar",
         "url": "/ar/",
         "name": "عربي"
