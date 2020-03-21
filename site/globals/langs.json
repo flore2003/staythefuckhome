@@ -118,5 +118,10 @@
         "code": "vi",
         "url": "/vi/",
         "name": "Tiếng Việt"
+    },
+    {
+        "code": "uk",
+        "url": "/uk/",
+        "name": "Українська"
     }
 ]
