@@ -30,6 +30,11 @@
         "name": "Italiano"
     },
     {
+        "code": "my",
+        "url": "/my/",
+        "name": "Malay"
+    },
+    {
         "code": "nl",
         "url": "/nl/",
         "name": "Nederlands"
