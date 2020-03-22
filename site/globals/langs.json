@@ -53,6 +53,10 @@
         "code": "hu",
         "url": "/hu/",
         "name": "Magyar"
+    },{
+        "code": "sk",
+        "url": "/sk/",
+        "name": "Slovak"
     },
     {
         "code": "tr",
