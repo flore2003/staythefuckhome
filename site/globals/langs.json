@@ -65,6 +65,11 @@
         "name": "ελληνικά"
     },
     {
+        "code": "al",
+        "url": "/al/",
+        "name": "Shqip"
+    },
+    {
         "code": "ru",
         "url": "/ru/",
         "name": "Русский"
