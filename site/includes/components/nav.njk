@@ -30,3 +30,26 @@
     <div>
 
 </nav>
+<script>
+try{
+    var langs=[];
+    {% for lang in langs %}
+        langs.push({
+        path: '{{ lang.url }}',
+        code :'{{ lang.code }}'
+
+        })
+    {% endfor %}
+
+    var userLang = navigator.language || navigator.userLanguage; 
+    var langCode = navigator.languages[navigator.languages.indexOf(userLang)+1]
+    var supportedLang = langs.find(x=>x.code == langCode)
+    if(window.location.pathname  == "/" && supportedLang){
+
+    var pathName = supportedLang.path
+    window.location=pathName
+    }
+}catch(e){
+    // browser problem
+}
+</script>
