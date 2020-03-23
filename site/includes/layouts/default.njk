@@ -34,7 +34,7 @@
     <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
 
     {# canonical #}
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{% if sfw %}{{ site.urlSfw }}{{ page.url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
 
     {% if page.url | isLocalized(langs) %}
         {% for lang in langs %}
