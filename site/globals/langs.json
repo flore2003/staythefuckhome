@@ -44,6 +44,22 @@
         "name": "Polski"
     },
     {
+        "code": "cs",
+        "url": "/cs/",
+        "name": "Čeština"
+    },
+    {
+        "code": "hu",
+        "url": "/hu/",
+        "name": "Magyar"
+    },
+    {
+      
+        "code": "se",
+        "url": "/se/",
+        "name": "Svenska"
+    },
+    {
         "code": "tr",
         "url": "/tr/",
         "name": "Türkçe"
@@ -69,6 +85,21 @@
         "name": "فارسی"
     },
     {
+        "code": "tl",
+        "url": "/tl/",
+        "name": "Filipino"
+    },
+    {
+        "code": "ar",
+        "url": "/ar/",
+        "name": "عربي"
+    },
+    {
+        "code": "id",
+        "url": "/id/",
+        "name": "Bahasa Indonesia"
+    },
+    {
         "code": "zh",
         "url": "/zh/",
         "name": "简体中文"
@@ -84,8 +115,18 @@
         "name": "日本語"
     },
     {
-        "code": "se",
-        "url": "/se/",
-        "name": "Svenska"
+        "code": "bn",
+        "url": "/bn/",
+        "name": "বাংলা"
+    },
+    {
+        "code": "vi",
+        "url": "/vi/",
+        "name": "Tiếng Việt"
+    },
+    {
+        "code": "uk",
+        "url": "/uk/",
+        "name": "Українська"
     }
 ]
