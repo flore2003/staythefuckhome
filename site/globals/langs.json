@@ -1,5 +1,4 @@
-[
-    {
+[{
         "code": "en",
         "url": "/",
         "name": "English"
@@ -53,6 +52,12 @@
         "code": "hu",
         "url": "/hu/",
         "name": "Magyar"
+    },
+    {
+      
+        "code": "se",
+        "url": "/se/",
+        "name": "Svenska"
     },
     {
         "code": "tr",
