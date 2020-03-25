@@ -45,6 +45,11 @@
         "name": "Polski"
     },
     {
+        "code": "cs",
+        "url": "/cs/",
+        "name": "Čeština"
+    },
+    {
         "code": "hu",
         "url": "/hu/",
         "name": "Magyar"
@@ -75,6 +80,11 @@
         "name": "فارسی"
     },
     {
+        "code": "tl",
+        "url": "/tl/",
+        "name": "Filipino"
+    },
+    {
         "code": "ar",
         "url": "/ar/",
         "name": "عربي"
@@ -103,5 +113,19 @@
         "code": "th",
         "url": "/th/",
         "name": "ไทย"
+    },
+        "code": "bn",
+        "url": "/bn/",
+        "name": "বাংলা"
+    },
+    {
+        "code": "vi",
+        "url": "/vi/",
+        "name": "Tiếng Việt"
+    },
+    {
+        "code": "uk",
+        "url": "/uk/",
+        "name": "Українська"
     }
 ]
