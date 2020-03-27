@@ -55,6 +55,11 @@
         "name": "Magyar"
     },
     {
+        "code": "th",
+        "url": "/th/",
+        "name": "ไทย"
+    },
+    {
         "code": "tr",
         "url": "/tr/",
         "name": "Türkçe"
