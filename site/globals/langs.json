@@ -15,6 +15,11 @@
         "name": "Français"
     },
     {
+        "code": "dk",
+        "url": "/dk/",
+        "name": "Dansk"
+    },
+    {
         "code": "de",
         "url": "/de/",
         "name": "Deutsch"
