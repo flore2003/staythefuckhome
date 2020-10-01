@@ -22,6 +22,8 @@ With no well-studied treatment and a viable vaccine still being out at least ano
 10.  If you can work from home, work from home. Urge your employer to allow remote work if needed.
 11.  Replace as many social interactions with remote alternatives like phone calls or video chat.
 12.  Do not leave your home if not absolutely necessary.
+13.  Wash your hands for minimum 20 seconds.
+14.  If you ever feel depressed then talk to someone you know personally and make sure you feel better.
 
 Please keep in mind there is no right or wrong amount of actions to take. Only take the actions that you feel comfortable with and that do not endanger your livelihood. **Do not quit your job over this!** However, keep in mind that every action helps.
 
