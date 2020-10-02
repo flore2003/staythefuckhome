@@ -1,6 +1,6 @@
 # The #StayTheFuckHome Website
 
-## A Movement to Stop the COVID-19 Pandemic
+## A Movement to Stop the COVID-19 Pandemic keep safe and make social distance
 
 Our governments are failing us in preventing the spread of [SARS-CoV-2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2) and containing the [COVID-19 pandemic](https://en.wikipedia.org/wiki/Coronavirus_disease_2019). Slow reactions, public appeasement policies, and their urge to stabilize the economy are keeping them from taking the measures it takes to protect millions from this disease. It is time for us, as citizens of this earth, to take action now and do our part in fighting COVID-19.  
 
